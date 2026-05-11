@@ -8,8 +8,7 @@ This information can be used if an alternate company wants to bid against SpaceX
 #### Remarks
 1. The Data collected via webscarping contains Falcon 9 AND Falcon 9 heavy launch data. The "Data Collection" approach collects Falcon 9 only.
 2. Sometimes there are large cell outputs, which are really unconvenient to read, but unfortunately were required for the individual tasks.
-3. to view Interactive Visualizations copy link to https://nbviewer.org/
-4. Dashboard Screenshots (Plotly Dash):
+3. Dashboard Screenshots (Plotly Dash) below. To view Interactive Visualizations copy link to https://nbviewer.org/
 <img width="1897" height="701" alt="allsites" src="https://github.com/user-attachments/assets/ca01050f-1471-4d07-8702-2ba321b06bf0" />
 <img width="1892" height="668" alt="Payload all sites" src="https://github.com/user-attachments/assets/9d303176-053a-40d6-809b-aeb581b6dfc6" />
 <img width="1876" height="751" alt="ccafs2" src="https://github.com/user-attachments/assets/1180c0fd-6085-43f3-a130-12034d935d83" />
