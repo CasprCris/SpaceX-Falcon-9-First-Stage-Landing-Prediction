@@ -1,5 +1,9 @@
 # SpaceX-Falcon-9-First-Stage-Recovery
-### (guided project)
+### Disclaimer
+### This is a guided project and part of the IBM Data Science Professional Certificate: https://www.coursera.org/professional-certificates/ibm-data-science
+### It is the final step of a 10 course Certification route and a demonstration of all aquired skills.
+
+## Introduction
 SpaceX has gained worldwide attention for a series of historic milestones.
 It is the only private company ever to return a spacecraft from low-earth orbit, which it first accomplished in December 2010. SpaceX advertises Falcon 9 rocket launches on its website with a cost of 62 million dollars whereas other providers cost upward of 165 million dollars each, much of the savings is because Space X can reuse the first stage.
 Therefore if we can determine if the first stage will land, we can determine the cost of a launch.
