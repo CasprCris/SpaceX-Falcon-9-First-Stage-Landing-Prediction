@@ -1,6 +1,6 @@
 # SpaceX-Falcon-9-First-Stage-Recovery
 #### Disclaimer
-This is a guided project and part of the IBM Data Science Professional Certificate: https://www.coursera.org/professional-certificates/ibm-data-science. It is the final step of a 10 course Certification route and a demonstration of all aquired skills.
+This is a guided project and part of the IBM Data Science Professional Certificate: https://www.coursera.org/professional-certificates/ibm-data-science. It is the final step of a 10 course Certification route and a demonstration of all aquired skills e.g.:
 1. Data Collection using API calls and Webscraping
 2. Data Wrangling
 3. Exploratory Data Analysis using Pandas, Matplotlib and Seaborn
