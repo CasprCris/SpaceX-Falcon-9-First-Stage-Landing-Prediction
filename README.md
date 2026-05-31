@@ -8,11 +8,9 @@ This is a guided project and part of the IBM Data Science Professional Certifica
 5. Interactive Visual Analytics with Plotly Dash and Folium Maps
 6. Machine Learing Predictions using four different Models and comparing their performance: Logisitc Regression, SVM, Decision Tree and KNN.
 
-## Introduction
-SpaceX has gained worldwide attention for a series of historic milestones.
-It is the only private company ever to return a spacecraft from low-earth orbit, which it first accomplished in December 2010. SpaceX advertises Falcon 9 rocket launches on its website with a cost of 62 million dollars whereas other providers cost upward of 165 million dollars each, much of the savings is because Space X can reuse the first stage.
-Therefore if we can determine if the first stage will land, we can determine the cost of a launch.
-This information can be used if an alternate company wants to bid against SpaceX for a rocket launch.
+## Business Case
+SpaceX can reuse the first stage of its Falcon 9 rockets, allowing them to advertise launch costs of around $62 million, whereas other providers cost upwards of $165 million. To help a competing commercial launch provider compete on price, this project builds four predictive models to determine if the first stage will land successfully, allowing the company to accurately estimate launch costs and bid effectively against SpaceX.
+
 
 #### Remarks
 1. The Data collected via webscarping contains Falcon 9 AND Falcon 9 heavy launch data. The "Data Collection" approach collects Falcon 9 only.
