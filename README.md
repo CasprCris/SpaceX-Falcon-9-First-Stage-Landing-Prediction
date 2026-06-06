@@ -2,16 +2,22 @@
 ## Project Overview
 This repository showcases the capstone project for the [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science), representing the culmination of a rigorous 10-course specialization. It serves as a comprehensive demonstration of practical data science, data engineering, and machine learning skills.
 The goal of this capstone project is to predict the success of SpaceX Falcon 9 first-stage landings, helping competitor aerospace companies estimate launch costs more accurately.
+
 ---
+
 ## Business Case
 SpaceX can reuse the first stage of its Falcon 9 rockets, allowing them to advertise launch costs of around $62 million, whereas other providers cost upwards of $165 million. To help a competing commercial launch provider compete on price, this project builds four predictive models to determine if the first stage will land successfully, allowing the company to accurately estimate launch costs and bid effectively against SpaceX.
+
 ---
+
 ## 🛠️ Tech Stack & Skills
 * **Data Wrangling & API Integration:** Python, Requests, Beautiful Soup, Pandas, NumPy
 * **Exploratory Data Analysis (EDA):** SQL (IBM DB2 / SQLite), Pandas, Matplotlib, Seaborn
 * **Interactive Data Visualization:** Folium (Geospatial maps), Plotly Dash (Interactive dashboards)
 * **Machine Learning:** Scikit-Learn (Logistic Regression, SVM, Decision Trees, K-Nearest Neighbors)
+
 ---
+
 ## 🚀 Data Pipeline & Methodology
 ### 1. Data Collection & API Integration
 * Gathered data from the SpaceX API regarding rocket launches, payloads, and landing outcomes.
@@ -32,7 +38,9 @@ SpaceX can reuse the first stage of its Falcon 9 rockets, allowing them to adver
   * Support Vector Machine (SVM)
   * Decision Tree Classifier
   * K-Nearest Neighbors (KNN)
+
 ---
+
  ## 📈 Key Insights & Results
 ### Model Performance Comparison
 
