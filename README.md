@@ -32,7 +32,7 @@ SpaceX can reuse the first stage of its Falcon 9 rockets, allowing them to adver
   * Support Vector Machine (SVM)
   * Decision Tree Classifier
   * K-Nearest Neighbors (KNN)
- ---
+---
  ## 📈 Key Insights & Results
 ### Model Performance Comparison
 
