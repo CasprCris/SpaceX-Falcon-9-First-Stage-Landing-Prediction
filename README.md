@@ -52,12 +52,14 @@ SpaceX can reuse the first stage of its Falcon 9 rockets, allowing them to adver
 | **KNN** | 84.8% | **83.3%** | `n_neighbors: 10`, `algorithm: auto` |
 
 > While all models achieved a solid **83.3% test accuracy**, the **Decision Tree Classifier** slightly outperformed the others during training phase tuning. The primary features driving successful landings were **Payload Mass** and proximity to specific **Launch Sites** (e.g., KSC LC-39A - Kennedy Space Center - showing higher success rates).
+
 ---
+
 #### Remarks
-1. The Data collected via webscarping contains Falcon 9 AND Falcon 9 heavy launch data. The "Data Collection" approach collects Falcon 9 only.
-2. Sometimes there are large cell outputs, which are really unconvenient to read, but unfortunately were required for the individual tasks.
-3. To view Interactive Visualizations (Folium) copy link to https://nbviewer.org/
-4. Dashboard Screenshots (Plotly Dash) below:
+* The Data collected via webscarping contains Falcon 9 AND Falcon 9 heavy launch data. The "Data Collection" approach collects Falcon 9 only. (different datasets provided by IBM during course)
+* Sometimes there are large cell outputs, which are really unconvenient to read, but unfortunately were required for the individual tasks.
+* To view Interactive Visualizations (Folium) copy link to https://nbviewer.org/
+* Dashboard Screenshots (Plotly Dash) below:
 <img width="1897" height="701" alt="allsites" src="https://github.com/user-attachments/assets/ca01050f-1471-4d07-8702-2ba321b06bf0" />
 <img width="1892" height="668" alt="Payload all sites" src="https://github.com/user-attachments/assets/9d303176-053a-40d6-809b-aeb581b6dfc6" />
 <img width="1876" height="751" alt="ccafs2" src="https://github.com/user-attachments/assets/1180c0fd-6085-43f3-a130-12034d935d83" />
