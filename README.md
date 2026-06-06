@@ -1,3 +1,6 @@
+# Owner avatar
+SpaceX-Falcon-9-First-Stage-Landing-Prediction
+
 ## Project Overview
 This repository showcases the capstone project for the [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science), representing the culmination of a 10-course specialization. It serves as a comprehensive demonstration of practical data science, data engineering, and machine learning skills.
 The goal of this capstone project is to predict the success of SpaceX Falcon 9 first-stage landings, helping competitor aerospace companies estimate launch costs more accurately.
