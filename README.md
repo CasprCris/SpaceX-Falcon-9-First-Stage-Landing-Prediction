@@ -1,15 +1,7 @@
 # SpaceX-Falcon-9-First-Stage-Recovery
-#### Disclaimer
-This is a guided project and part of the IBM Data Science Professional Certificate: https://www.coursera.org/professional-certificates/ibm-data-science. It is the final step of a 10 course Certification route and a demonstration of all aquired skills e.g.:
-1. Data Collection using API calls and Webscraping
-2. Data Wrangling
-3. Exploratory Data Analysis using Pandas, Matplotlib and Seaborn
-4. Exploratory Data Analysis using SQL Magic
-5. Interactive Visual Analytics with Plotly Dash and Folium Maps
-6. Machine Learing Predictions using four different Models and comparing their performance: Logisitc Regression, SVM, Decision Tree and KNN.
-
 ## Project Overview
-This repository contains the culmination of the 10-course IBM Data Science Professional Certificate. The goal of this capstone project is to predict the success of SpaceX Falcon 9 first-stage landings, helping competitor aerospace companies estimate launch costs more accurately.
+This repository showcases the capstone project for the [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science), representing the culmination of a rigorous 10-course specialization. It serves as a comprehensive demonstration of practical data science, data engineering, and machine learning skills.
+The goal of this capstone project is to predict the success of SpaceX Falcon 9 first-stage landings, helping competitor aerospace companies estimate launch costs more accurately.
 ---
 ## Business Case
 SpaceX can reuse the first stage of its Falcon 9 rockets, allowing them to advertise launch costs of around $62 million, whereas other providers cost upwards of $165 million. To help a competing commercial launch provider compete on price, this project builds four predictive models to determine if the first stage will land successfully, allowing the company to accurately estimate launch costs and bid effectively against SpaceX.
