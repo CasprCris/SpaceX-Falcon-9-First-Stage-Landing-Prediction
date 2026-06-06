@@ -46,10 +46,10 @@ SpaceX can reuse the first stage of its Falcon 9 rockets, allowing them to adver
 
 | Model | Accuracy (Train Set) | Accuracy (Test Set) | Best Hyperparameters |
 | :--- | :---: | :---: | :--- |
-| **Decision Tree** | 87.5% | **83.3%** | `criterion: gini`, `max_depth: 4` |
-| **SVM** | 84.7% | **83.3%** | `C: 1.0`, `kernel: rbf` |
-| **Logistic Regression** | 84.7% | **83.3%** | `C: 0.1`, `penalty: l2` |
-| **KNN** | 84.7% | **83.3%** | `n_neighbors: 10`, `algorithm: auto` |
+| **Decision Tree** | 86.1% | **83.3%** | `criterion: gini`, `max_depth: 4` |
+| **SVM** | 84.8% | **83.3%** | `C: 1.0`, `kernel: rbf` |
+| **Logistic Regression** | 84.6% | **83.3%** | `C: 0.1`, `penalty: l2` |
+| **KNN** | 84.8% | **83.3%** | `n_neighbors: 10`, `algorithm: auto` |
 
 > **Recruiter Note:** While all models achieved a solid **83.3% test accuracy**, the **Decision Tree Classifier** slightly outperformed the others during training phase tuning. The primary features driving successful landings were **Payload Mass** and proximity to specific **Launch Sites** (e.g., KSC LC-39A showing higher success rates).
 ---
