@@ -8,10 +8,51 @@ This is a guided project and part of the IBM Data Science Professional Certifica
 5. Interactive Visual Analytics with Plotly Dash and Folium Maps
 6. Machine Learing Predictions using four different Models and comparing their performance: Logisitc Regression, SVM, Decision Tree and KNN.
 
+## Project Overview
+This repository contains the culmination of the 10-course IBM Data Science Professional Certificate. The goal of this capstone project is to predict the success of SpaceX Falcon 9 first-stage landings, helping competitor aerospace companies estimate launch costs more accurately.
+---
 ## Business Case
 SpaceX can reuse the first stage of its Falcon 9 rockets, allowing them to advertise launch costs of around $62 million, whereas other providers cost upwards of $165 million. To help a competing commercial launch provider compete on price, this project builds four predictive models to determine if the first stage will land successfully, allowing the company to accurately estimate launch costs and bid effectively against SpaceX.
+---
+## 🛠️ Tech Stack & Skills
+* **Data Wrangling & API Integration:** Python, Requests, Beautiful Soup, Pandas, NumPy
+* **Exploratory Data Analysis (EDA):** SQL (IBM DB2 / SQLite), Pandas, Matplotlib, Seaborn
+* **Interactive Data Visualization:** Folium (Geospatial maps), Plotly Dash (Interactive dashboards)
+* **Machine Learning:** Scikit-Learn (Logistic Regression, SVM, Decision Trees, K-Nearest Neighbors)
+---
+## 🚀 Data Pipeline & Methodology
+### 1. Data Collection & API Integration
+* Gathered data from the SpaceX API regarding rocket launches, payloads, and landing outcomes.
+* Supplemented dataset via web scraping Wikipedia for Falcon 9 launch records using BeautifulSoup.
 
+### 2. Exploratory Data Analysis (EDA) & SQL
+* Handled missing values (e.g., imputing payload mass averages).
+* Executed SQL queries to analyze launch site success rates, total payload mass variations, and correlation between orbit types and landing success.
 
+### 3. Interactive Visual Analytics
+* **Folium:** Built geospatial maps to pinpoint launch site proximity to coastlines and railways, analyzing safety buffer zones.
+* **Plotly Dash:** Developed a live dashboard featuring dropdown menus and range sliders to filter landing success rates by payload mass and launch site.
+
+### 4. Predictive Modeling & Evaluation
+* Standardized features using `StandardScaler`.
+* Tuned hyperparameters for four algorithms using `GridSearchCV`:
+  * Logistic Regression
+  * Support Vector Machine (SVM)
+  * Decision Tree Classifier
+  * K-Nearest Neighbors (KNN)
+ ---
+ ## 📈 Key Insights & Results
+### Model Performance Comparison
+
+| Model | Accuracy (Train Set) | Accuracy (Test Set) | Best Hyperparameters |
+| :--- | :---: | :---: | :--- |
+| **Decision Tree** | 87.5% | **83.3%** | `criterion: gini`, `max_depth: 4` |
+| **SVM** | 84.7% | **83.3%** | `C: 1.0`, `kernel: rbf` |
+| **Logistic Regression** | 84.7% | **83.3%** | `C: 0.1`, `penalty: l2` |
+| **KNN** | 84.7% | **83.3%** | `n_neighbors: 10`, `algorithm: auto` |
+
+> **Recruiter Note:** While all models achieved a solid **83.3% test accuracy**, the **Decision Tree Classifier** slightly outperformed the others during training phase tuning. The primary features driving successful landings were **Payload Mass** and proximity to specific **Launch Sites** (e.g., KSC LC-39A showing higher success rates).
+---
 #### Remarks
 1. The Data collected via webscarping contains Falcon 9 AND Falcon 9 heavy launch data. The "Data Collection" approach collects Falcon 9 only.
 2. Sometimes there are large cell outputs, which are really unconvenient to read, but unfortunately were required for the individual tasks.
