@@ -51,7 +51,7 @@ SpaceX can reuse the first stage of its Falcon 9 rockets, allowing them to adver
 | **Logistic Regression** | 84.6% | **83.3%** | `C: 0.1`, `penalty: l2` |
 | **KNN** | 84.8% | **83.3%** | `n_neighbors: 10`, `algorithm: auto` |
 
-> **Recruiter Note:** While all models achieved a solid **83.3% test accuracy**, the **Decision Tree Classifier** slightly outperformed the others during training phase tuning. The primary features driving successful landings were **Payload Mass** and proximity to specific **Launch Sites** (e.g., KSC LC-39A showing higher success rates).
+> While all models achieved a solid **83.3% test accuracy**, the **Decision Tree Classifier** slightly outperformed the others during training phase tuning. The primary features driving successful landings were **Payload Mass** and proximity to specific **Launch Sites** (e.g., KSC LC-39A - Kennedy Space Center - showing higher success rates).
 ---
 #### Remarks
 1. The Data collected via webscarping contains Falcon 9 AND Falcon 9 heavy launch data. The "Data Collection" approach collects Falcon 9 only.
